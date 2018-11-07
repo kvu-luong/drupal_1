@@ -1,6 +1,12 @@
 global-css:
   css:
     theme:
+      css/animate.css: {}
+      css/chocolat.css: {}
+      css/easy-responsive-tabs.css: {}
+      css/flexslider.css: {}
+      css/font-awesome.min.css: {}
+      css/style-housing.css: {}
       css/style.css: {}
 global-js:
   js:
