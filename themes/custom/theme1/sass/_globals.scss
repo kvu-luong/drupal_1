@@ -44,7 +44,56 @@ body{
 .clr{clear:both;}
 
 
-
+/* MySliderShow */
+.flexslider .slides > li {
+     margin-top: 0px !important;
+     position: relative;
+}
+.flexslider .slides>li >a {
+    font-size: 4em;
+    color: #fff;
+    font-family: 'Play', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 3px;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, 50%);
+}
+.flexslider .slides>li >a:hover {
+   text-decoration: none;
+}
+.flexslider .slides>li >p {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, 50%);
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
+    line-height: 2em;
+    width: 100%;
+    margin: 1em auto;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Play', sans-serif;
+}
+.flex-control-nav{
+    bottom: 10px !important;
+}
+.flex-direction-nav .flex-prev,
+{
+    left: 3%;
+}
+.flex-direction-nav .flex-next{
+    right: 3%;
+}
+.flex-direction-nav .flex-prev,
+.flex-direction-nav .flex-next{
+    top: 47%;
+}
 
 
 

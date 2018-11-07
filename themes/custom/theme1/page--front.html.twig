@@ -4,7 +4,11 @@
       {{ page.header }}
   </div>
 </header>
-  
+{% if page.slider %}
+  <div class="container-fluid">
+    {{page.slider}}
+  </div>
+{% endif %}
 <div class="container">
 
   <main role="main">
